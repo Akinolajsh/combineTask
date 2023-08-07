@@ -1,3 +1,8 @@
-import express from "express"
+
+import express, { Application } from "express"
 import cors from "cors"
-import mongoose from "mongoose" 
+
+const port : number = 1234
+
+const app : Application = express()
+
